@@ -1,5 +1,5 @@
 #Take user input
-#convert input to str
+#Convert input to str
 userinput = str(input("Give me a character to turn into a diamond..."))
 
 #diamond variable 1
