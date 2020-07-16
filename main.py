@@ -1,11 +1,5 @@
-#Take user input
-#convert input to str
-userinput = str(input("Give me a character to turn into a diamond..."))
+user_input = int(input("The input is... "))
 
-#diamond variable 1
-#diamond variable 2
-#diamond variable 3
-#diamond variable 4
-#diamond variable 5
-#diamond variable 6
-#diamond variable 7
+for i in range(10):
+  i=1
+print(i+1)
