@@ -1,5 +1,40 @@
-user_input = int(input("The input is... "))
+#Ste= p 1
+#{}Debug the following program so that it properly takes a users order and outputs the price of the order.
 
-for i in range(10):
-  i=1
-print(i+1)
+#Step 2
+#Edit the existing code and have it print out the items you are ordering as follows...
+#Example
+# "Coffee x 0"
+# "Cake x 2"
+# "Tea x 3"
+
+#Step 3
+#Have the items you are ordering also output their indavidual cost.
+#Example
+# "Coffee x 0 : 0.00"
+# "Cake x 2 : 5.00"
+# "Tea x 3 : 3.6"
+
+
+listOfOrders = ["Cofee" "Cake" "Tea"]
+Price = 0
+for i in listOfOrders:
+  message = "Would you like to buy a "str(listOfOrders[i])". Yes / No   "
+  myOrder = str( input(message))
+
+  if myOrder == Yes and i = 1:
+    number = input("How many would you like? ")
+    for a in range(number)
+      price = price + 2.5
+
+  if myOrder == "Yes" and i = 2:
+    number = input("How many would you like? ")
+    For a in range(number):
+      price += 5.2
+
+  if myOrder == yes and i = 3:
+    number = int(input("How many would you like? "))
+    for a in range(number):
+      price += 1.2
+
+print("Your total price is", price, ".")
