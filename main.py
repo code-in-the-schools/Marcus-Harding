@@ -1,10 +1,16 @@
-# has won 3 nba titles
-# was selected as mvp 4 times
-#has been selected to play in 16 all-star games
-# has been playing in the nba for 17 years
-b = int(input())
-if b == 1:
-print("has won 3 nba titles")
-elif b== 2:
-print("has been selected mvp 4 times")
-has been selected to play in 16 all-star games")"has been playing in the nba for 17 years!!")
+import random
+r =random.randit(-100,100)
+
+found = False
+while found == False
+a = int(input("Guess a number "))
+
+if a == r:
+  found = True
+  print("winner!!")
+  elif a>r:
+    print(str(a), "is more than ")
+    elif a<r:
+      print(str(a), "is less than ")
+      else:
+        print("This is not a number, try again.")
