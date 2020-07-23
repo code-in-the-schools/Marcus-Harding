@@ -1,16 +1,10 @@
-import random
-r =random.randit(-100,100)
+characters = ["$" "@" "*" "#" "&" "=" "/"]
 
-found = False
-while found == False
-a = int(input("Guess a number "))
+alf = ['q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m'] 
 
-if a == r:
-  found = True
-  print("winner!!")
-  elif a>r:
-    print(str(a), "is more than ")
-    elif a<r:
-      print(str(a), "is less than ")
-      else:
-        print("This is not a number, try again.")
+num = ['0','1','2','3','4','5','6','7','8','9']
+
+invalad = true
+
+while invalad:
+  password = str(input("please enter a password"))
